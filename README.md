@@ -1,6 +1,6 @@
 # SpaghettiSquash
 
-SpagettiSquash is the story of me making better an app with page after page of interlinked ActiveRecord callbacks triggering them.
+SpagettiSquash is the story of me making better an app with page after page of interlinked ActiveRecord callbacks triggering each other.
 
 ## Installation
 
