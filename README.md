@@ -18,9 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-Right now, all it does it log the beginning and end of all they callbacks, so you can see what's going on.
+Right now, all it does is log the beginning and end of all the callbacks, so you can see what's going on.
 
-For example
+For example:
 
 ````
 % rails c                                                                                                                                                                           ✹
@@ -37,7 +37,7 @@ finishing callback
 
 ````
 
-It should only log callbacks that originate from your code, but this might break if you vendor gems or your Rails.root is somewhere strange.
+It should only log callbacks that originate from your code, but this might break if your vendor gems or your `Rails.root` is somewhere strange.
 
 It probably slows down your app a lot.
 
@@ -47,9 +47,9 @@ I'm developing this against Rails 4.1, but I'd accept bugs against any Rails 4 v
 
 ## In the future
 
-Printing out a tree structure, and counting call backs per-request (or save, or something).
+Printing out a tree structure, and counting callbacks per-request (or save, or something).
 
-Some tools to help you pull callbacks into seperate objects that can, one hopes, be refactored away.
+Some tools to help you pull callbacks into separate objects that can, one hopes, be refactored away.
 
 Who knows.
 
