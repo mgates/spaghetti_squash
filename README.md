@@ -37,7 +37,7 @@ finishing callback
 
 ````
 
-It should only log callbacks that originate from your code, but this might break if your vendor gems or your `Rails.root` is somewhere strange.
+It should only log callbacks that originate from your code, but this might break if you vendor gems or your `Rails.root` is somewhere strange.
 
 It probably slows down your app a lot.
 
